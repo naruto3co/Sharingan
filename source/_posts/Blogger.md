@@ -17,3 +17,8 @@ https://vnhacker.substack.com/
 https://phamcongit.wordpress.com/
 
 https://drx.home.blog/2019/07/31/xss-cross-site-scripting-part-3-xss-auditor/#more-1104     ( có lẽ nên làm về XSS luôn )
+
+https://kienmanowar.wordpress.com/ ( thầy Kiên)
+
+https://datph4m.io/ ( hacker tiktok )
+https://blog.ryotak.net
